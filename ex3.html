@@ -1,0 +1,55 @@
+<form action="/my-handling-form-page" method="post">
+    <link rel="stylesheet" type="text/css" href="css/ex3.css" media="screen" />
+    <table>
+        <tr>
+                <td><label for="nombre"><b>Tu nombre:</b></label></td>
+                <th><input type="text" id="nombre" name="nombre" placeholder="nombre" required></th>
+        </tr>
+        <tr>
+            <td><label for="correo"><b>Tu correo electrónico:</b></label></td>
+            <th><input type="text" id="correo" name="correo" placeholder="correo electrónico" required></th>
+        </tr>
+        <tr>
+            <td><b>Departamento</b></td>
+            <td>
+                <select name="departamento">
+                    <option>Ventas</option>
+                    <option>Tecnologia..........</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="sala"><b>Tipo de sala que desea reservar:</b></label></td>
+            <td><input type="radio" name="tipo"/>Tipo A </td> 
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="radio" name="tipo"/>Tipo B</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="radio" name="tipo"/>Tipo C </td>
+        </tr>
+        <tr>
+            <td><label for="Requisitos Extra"><b>Requisitos extra:</b></label></td>
+        </tr>
+        <tr>
+            <td></td>
+            <th><input type="checkbox" name="caballete"/>Caballete y bolígrafos</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th><input type="checkbox" name="television"/>Televisión</th>
+        </tr>
+               <!-- <label for="Requisitos extra"><b>Requisitos extra:</b></label>
+                <input type="checkbox" name="caballete" value="caballete">
+                <label for="caballete">Caballete y bolígrafos</label><br>
+                <input type="checkbox" id="sala" name="sala" value="Televisión">
+                <label for="television">Televisión</label><br>
+                <input type="checkbox" id="sala" name="sala" value="Café,té y agua">
+                <label for="cafe,te y agua">Café,té y agua</label><br>-->
+                   
+        
+    </table>
+
+</form>
