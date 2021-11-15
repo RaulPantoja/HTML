@@ -1,0 +1,15 @@
+table{
+    border-collapse: collapse;
+   
+}
+td{
+    border-collapse: collapse;
+    text-align:left;
+    
+}
+th{
+    border-collapse: collapse;
+   width: 250; 
+    text-align:left;
+}
+

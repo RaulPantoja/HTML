@@ -1,6 +1,10 @@
+# En este repositorio tengo todas las actividades de html y css.
+
 ## _Este es mi primer README.md_
 
+
 ### **Aqui vamos a ver que se puede hacer en un fichero readme.md**
+
 
 Si ponemos dos * antes de escribir un texto y otros 2 * despues de escribir el texto sale en negrita, aqui un ejemplo
 
@@ -53,6 +57,6 @@ Podemos hacer una lista de tareas
 
 Para esto tenemos que escribir un - antes de los [] y si queremos marcar una opcion escribimos una x dentro de los []
 - [x] Tarea 1.
-- [] Tarea 2.
-- [] Tarea 3.
+- [ ] Tarea 2.
+- [ ] Tarea 3.
 
