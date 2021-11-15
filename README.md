@@ -1,10 +1,8 @@
-# En este repositorio tengo todas las actividades de html y css.
-
 ## _Este es mi primer README.md_
 
 
 ### **Aqui vamos a ver que se puede hacer en un fichero readme.md**
-
+**En este repositorio tengo todas las actividades de html y css.**
 
 Si ponemos dos * antes de escribir un texto y otros 2 * despues de escribir el texto sale en negrita, aqui un ejemplo
 
