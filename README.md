@@ -53,6 +53,6 @@ Podemos hacer una lista de tareas
 
 Para esto tenemos que escribir un - antes de los [] y si queremos marcar una opcion escribimos una x dentro de los []
 - [x] Tarea 1.
-- [] Tarea 2.
-- [] Tarea 3.
+- [ ] Tarea 2.
+- [ ] Tarea 3.
 
