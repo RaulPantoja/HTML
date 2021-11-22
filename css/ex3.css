@@ -3,13 +3,29 @@ table{
    
 }
 td{
+   
+    padding: 0 15px 0 15px;
     border-collapse: collapse;
     text-align:left;
     
 }
 th{
-    border-collapse: collapse;
+     
    width: 250; 
     text-align:left;
 }
+.textocentrado{
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+    width: 200;
+}
+/*table#space{
+    border-collapse: separate;
+    border-spacing: 0px 7px;
+    
+    
+}*/
+
+
 
