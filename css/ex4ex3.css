@@ -1,0 +1,14 @@
+.tablacss{
+    border-collapse: collapse;
+    border:solid;
+}
+.tablacss td{
+    vertical-align: top;
+    border: solid;
+    width: 80px;
+    
+    
+}
+.tablacss tr{
+    height: 30px;
+}

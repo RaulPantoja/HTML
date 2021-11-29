@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <link rel="stylesheet" type="text/css" href="ej4.css" media="screen" />
+
+    </head>
+    <h1>Reservation Request</h1>
+    <body>
+        <form>
+            <fieldset style="width:35%">
+                <legend><b><FONT COLOR="blue">General Information </FONT></b></legend>
+                    <p>Arrival date: <input type="date"></p>
+                    <p>Nights: &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="number"></p>
+                    <p>Adults:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<select name="adultos">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select></p>  
+                    <p>Childrens: &nbsp;&nbsp;&nbsp; <select name="niños">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></p>
+                </fieldset>
+                <fieldset style="width:35%">
+                    <legend><b><FONT COLOR="blue">Preferences</FONT></b></legend>
+                    <p>Room type: <input type="radio" name="boton" value="1">Standard <input  type="radio" name="boton" value="1">Business <input  type="radio" name="boton" value="1">Suite </p>
+                    <p>Bed type: <input type="radio" name="boton" value="1">King <input  type="radio" name="boton" value="1">Double Double <br>
+                    <input type="checkbox" name="casilla" value="1">Smoking</p>
+                </fieldset>
+                <fieldset style="width:35%"> 
+                    <legend><b><FONT COLOR="blue">Contact Information</FONT></b></legend>
+                        <p>Name: &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="nombre">
+                        <p>Email: &nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="correo">
+                        <p>Phone: &nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" name="telefono">
+                    
+                </fieldset>
+                <p><input type="submit" value="Submit Reservation"> <input type="reset" value="Borrar"></p> 
+        </form>
+    </body>
+</html>

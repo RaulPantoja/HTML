@@ -1,0 +1,50 @@
+
+
+
+.caja2{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.primerafila{
+    display: flex;
+    
+}
+.segundafila{
+    background-color: rgba(247, 244, 244, 0.884);
+    border-top: 1px solid slategray;
+    border-bottom: 1px solid slategray;
+    display: flex;
+    
+}
+.tercerafila{
+    display: flex;
+    background-color: rgb(170, 170, 170);
+    border-top: 1px solid slategray;
+    border-bottom: 1px solid slategray;
+   
+}
+.cuartafila{
+    display: flex;
+    background-color: rgba(247, 244, 244, 0.884);
+    border-top: 1px solid slategray;
+    border-bottom: 1px solid slategray;
+}
+.caja4{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.quintafila{
+    display: flex;
+    background-color: rgb(170, 170, 170);
+    border-top: 1px solid slategray;
+    border-bottom: 1px solid slategray;
+}
+.sextafila{
+    display: flex;
+    background-color: rgba(247, 244, 244, 0.884);
+    border-top: 1px solid slategray;
+    border-bottom: 1px solid slategray;
+   
+    
+}

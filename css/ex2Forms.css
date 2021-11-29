@@ -1,0 +1,16 @@
+#form{
+    display: grid;
+}
+#cabezera{
+    margin-bottom: 30px;
+    font-size:125%;
+    grid-column:1/3;
+    height: 45px;
+    background-color: rgb(104, 253, 253);
+}
+.titulo{
+    margin-bottom: 30px;
+}
+#segundacolumna{
+    margin-left: -500px;
+}
