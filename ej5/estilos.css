@@ -1,0 +1,38 @@
+/* This is a comment */
+/* Style Sheet for Jaberwocky Tutorial */
+
+/* Body */
+body {background-color: rgb(216, 221, 221)} /* El body contiene el color del fondo de la pagina*/
+hr.linea{height: 10px;}
+
+/* Headers */
+h2{color:springgreen}
+h1 {color:maroon; font-size:20pt} /* El h1 es el titulo de la pagina a inicio en este caso Jabberwocky y esta 
+en color marron
+
+/* HR (Hard Rule = line) */
+hr {color:navy} /*La etiqueta hr es una separacion entre parrafos y esta puesto de color azul
+
+/* Paragraphs */
+p.comment{color:blueviolet}
+p {font-size:12pt; margin-left: 15px} /*Esta etiqueta contiene un parrafo en el primera parrafo tiene un tamaño de letra
+de 12pt(punto tipografico) */
+p.verse {color:maroon; margin-left: 60px} /*Esta etiqueta contiene otro parrafo y el color del parrafo es rojo y tiene un margen
+a la derecha de 60px
+
+/* Divs */
+{color:slategray; margin-left: 40px;}
+/* Links */
+a:link     {color:green} /* Esta etiqueta define un enlace con el color verde cuando no esta visitado, ni el raton encima, ni cuando
+le das click*/
+a:visited  {color:yellow} /*Cuando el enlace ya se ha visitado el color se cambia a amarillo*/
+a:hover    {color:black} /*Cuando el raton esta encima del enlace se pone de color negro*/
+a:active   {color:blue} /*Cuando le damos click se cambia al azul y despues vuelve a su color natural*/
+
+/* Navigation */
+
+/* Classes used by all html elements */
+
+/* Ids */
+
+
