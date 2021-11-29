@@ -1,0 +1,18 @@
+.tdMenu  {
+    text-align: center;
+}
+.desayuno{
+    vertical-align: top;
+}
+.almuerzo{
+    vertical-align: top;
+}
+.cena{
+    vertical-align: top;
+}
+table {
+    background-color: rgb(250, 239, 232);
+    border-color: rgb(247, 31, 31);
+    border-width: 2px;
+    
+}

@@ -1,0 +1,11 @@
+
+table,td,th{
+    border-style:  dashed;
+    border-color: rgb(170, 12, 12);
+}
+td{
+    text-align: center;
+}
+th{
+    background: rgb(253, 221, 202);
+}

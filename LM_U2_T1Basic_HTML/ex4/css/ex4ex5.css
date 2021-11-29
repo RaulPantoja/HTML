@@ -1,0 +1,37 @@
+table  {
+    
+    border-collapse: separate;
+    border: rgb(161, 161, 161) solid;
+    
+  }
+.iso{
+      
+      background-color: red;
+  }
+  .gbd{
+      background-color: rgb(30, 211, 243);
+  }
+  .par{
+      background-color: blueviolet;
+  }
+  .fhw{
+      background-color: deeppink;
+  }
+  .fol{
+      background-color: chartreuse;
+  }
+  .lm{
+      background-color: saddlebrown;
+  }
+
+  td,
+  th {
+    border: 1px solid black;
+  }
+  .texto{
+      text-align: center;
+  }
+
+
+
+  

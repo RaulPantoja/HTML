@@ -1,0 +1,11 @@
+h2{
+    text-align: center;
+}
+.ajuste{
+    margin: 10px auto;
+    display:block;
+}
+.ajusteDerecha{
+    margin: -10px auto;
+    display:block;
+}
