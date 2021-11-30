@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="selectorTabla.css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio práctico con tablas</title>
+
+    <style>
+        table {
+            
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Ejercicio práctico con Tablas</h1>
+
+    <table align="center">
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+          </colgroup>
+        <caption></caption>
+        <thead>
+            <tr>
+                <th style="background-color:white;"></th>
+                <th class="azul" colspan="3"><img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/ipod/ipodclassic/ipod-5th-gen.png" width="50px"></th>
+                <th class="azul" colspan="2"><img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/ipod/ipodclassic/ipod-5th-gen.png" width="50px"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="tamaño" id="gris">Capacidad</th>
+                <td class="capacidad">
+                    <p class="capacidad">2GB</p>
+                </td>
+                <td class="capacidad">
+                    <p class="capacidad">4GB</p>
+                </td>
+                <td class="capacidad">
+                    <p class="capacidad">8GB</p>
+                </td>
+                <td class="capacidad">
+                    <p class="capacidad">32GB</p>
+                </td>
+                <td class="capacidad">
+                    <p class="capacidad">2GB</p>
+                </td>
+            </tr>
+            <tr>
+                <th class="tamaño">Colores</th>
+                <th>Blanco</th>
+                <td>
+                    <ul>
+                        <b><li id="color">Negro</li></b>
+                        <b><li id="color">Rosa</li></b>
+                        <b><li id="color">Dorado</li></b>
+                    </ul>
+                </td>
+                <th>Negro</th>
+                <td class="azul" colspan="2">
+                    <ul>
+                        <b><li id="color">Negro</li></b>
+                        <b><li id="color">Blanco</li></b>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th class="tamaño">Pantalla</th>
+                <th class="azul" colspan="3">3 pulgadas</th>
+                <th class="azul" colspan="2">7 pulgadas</th>
+            </tr>
+            <tr>
+                <th rowspan="2" class="tamaño">Tiempo<br> de<br> Carga</th>
+                <th class="azul" colspan="3" rowspan="2">1 hora</th>
+                <th id="margen" colspan="2">5 horas</th>
+            </tr>
+            <tr>
+                <th class="azul" colspan="2">30 minutos para<br> 75%</th>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+</body>
+
+</html>
