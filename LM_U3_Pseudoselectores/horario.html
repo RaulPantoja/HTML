@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>horario con pseudoselectores</title>
+
+    <link href="horario.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <table class="tabla">
+        <caption><a href="https://educacionadistancia.juntadeandalucia.es/centros/cordoba/mod/assign/view.php?id=53582">HORARIO DE CLASE CURSO 2018-2019</a></caption>
+        <thead>
+            <tr>
+                <th>HORAS</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                    
+            </tr>
+            <tr>
+                <td>8:00</td>
+                <td rowspan="2">Matematicas</td>
+                <td>Lengua</td>
+                <td>Ingles</td>
+                <td colspan="2">Ciencias</td>
+            </tr>
+            <tr>
+                <td>9:00</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matematicas</td>
+                <div id="aumento">
+                <td>Lengua</td>
+                </div>
+
+            </tr>
+            
+            <tr>
+                <td>10:00</td>
+                <th class="recreo" colspan="5">RECREO</th>
+            </tr>
+            <tr>
+                <td>10:30</td>
+                <td>Ingles</td>
+                <td rowspan="2">Ciencias</td>
+                <td>Matematicas</td>
+                <td>Lengua</td>
+                <div id="aumento">
+                <td>Historia</td>
+                </div>
+               
+            </tr>
+            <tr>
+                <td>11:30</td>
+                <td>Historia</td>
+                
+                <td>Ciencias</td>
+                <td>Matematicas</td>
+                <td>Ingles</td>
+
+            </tr>
+            
+        </tbody>
+    </table>
+    <form>
+        <label>Email</label>
+        <input type="email" placeholder="Inserte email del destinario"><br>
+        <input type="submit"  value="Enviar Horario" required>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+#cabezera{
+    background-color: rgb(51, 50, 50);
+}
+#redes{
+    text-align: right;
+    margin-right: 180px;
+}
+#apartado1{
+    background-color:palevioletred;
+    
+}
+#texto1{
+    margin-left: 50px;
+     position: relative;
+    top: 50px;
+    left: 70px;
+}
+.titulo{
+    margin-left: 130px;
+    margin-top: px;
+}
+.boton1{
+    height: 40px;
+    width: 100px;
+    margin: 30px;
+    color: white;
+    
+    border-radius: 15%;
+    background-color: rgb(34, 34, 34);
+}
+.boton2{
+    height: 40px;
+    width: 100px;
+    margin: 30px;
+    color: white;
+    border-radius: 15%;
+    background-color: rgb(34, 34, 34);
+}
+#imagen{
+    position: relative;
+    top: -200px;
+    right: -650px;
+}
+#apartado2{
+    background-color: rgb(248, 247, 247);
+    
+    display:grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr ;  
+    row-gap: 1rem; 
+    column-gap: 1rem;
+}
+#primero{
+    margin-left: 80px;
+}
+.titulo1{
+    font-size: 150%;
+    margin-left: 80px;
+}
+.titulo2{
+    font-size: 150%;
+    margin-left: 900px;
+    
+}
+#apartado3{
+    display:block;
+    grid-template-columns: auto auto;
+    grid-gap: 100px;
+    
+}
+#lupa{
+    margin-left: 120px;
+    
+
+}
+#opiniones{
+    margin-left: 900px;
+}
+#pie{
+    background-color: rgb(31, 30, 30);
+}

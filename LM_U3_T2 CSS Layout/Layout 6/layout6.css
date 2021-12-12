@@ -1,0 +1,46 @@
+#fondo{
+    background-image: url(https://fondosmil.com/fondo/8648.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+#fondo img{
+    margin:5%;
+    width: 8%;
+}
+
+#fondo div{
+  align-self: center;
+  margin-left: 5%;
+}
+#fondo2{
+    display: flex;
+    
+}
+.texto{
+    color: white;
+    margin-left: 20%;
+    text-align: center;
+    font-size: 200%;
+}
+.texto2{
+    color: white;
+}
+.boton{
+    margin-top: 40px;
+    margin-left: 1150px;
+}
+.cuadrado{
+    margin: 150px;
+    margin-top: 20px;
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cuadrado b{
+    text-align: center;
+    
+}
+

@@ -1,0 +1,45 @@
+
+.texto{
+    text-align: center;
+}
+table,th,td,tr {
+    border-collapse: collapse;
+    border-spacing:  1px;
+    border: solid 1px;
+  }
+
+tr,td:last-of-type:hover{
+    font-size: 130%;
+}
+td:first-of-type{
+    background-color: green;
+}
+.recreo{
+    background-color: yellow;
+}
+.tabla a:first-of-type{ /*no visitados*/
+    color:green;
+    text-decoration-line: none;
+  }
+  .tabla a:first-of-type:visited{ /*visitados*/
+    color: red;
+  }
+  input{
+      margin: 5px;
+  }
+  label::after{ /*Despues de todos los label se pone un asterisco de color rojo*/
+      content:"*";
+      color: red;
+  }
+  
+  input:first-of-type{
+      border: solid red
+  }
+  input:valid {
+    background-color: #f3f5f3;
+  }
+  
+  
+  
+
+  

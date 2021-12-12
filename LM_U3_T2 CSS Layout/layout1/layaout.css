@@ -1,0 +1,65 @@
+img { float:inline-end;}
+
+body{
+    background-color: rgb(173, 156, 159);
+
+
+}
+#inferior{
+    margin:30px;
+    margin-top:30px;
+    display:grid;
+    width: 60%;
+    grid-template-columns: 0fr 1fr 1fr 1fr;  
+    row-gap: 2rem; 
+    column-gap: 1rem;
+}
+#imagen{
+    background-color: white;
+    width: 800px;
+    margin-left: 200px;
+}
+#granja{
+    background-color: white;
+    margin-left: 170px;
+}
+#coche{
+    background-color: white;
+}
+#arbol{
+    background-color: white;
+}
+#casa{
+    background-color: white;
+}
+#cabezera{
+    background-color: white;
+    width: 800px;
+    margin-left: 200px;
+}
+.granja{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.coche{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.arbol{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.casa{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.imagen{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
