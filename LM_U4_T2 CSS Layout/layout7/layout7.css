@@ -1,0 +1,50 @@
+#cabezera{
+    background-color: brown;
+}
+#cabezera2{
+    background-image: url(fondo.jpg);
+}
+#redes{
+    text-align: right;
+    margin-right: 180px;
+}
+#texto{
+    margin-left: 100px;
+}
+#titulo{
+    margin-left: 100px;
+}
+#camara{
+    margin-left: 50px;
+    position: relative;
+    left: 700px;
+}
+#abajo{
+    background-color: black;
+
+}
+#contenido{
+    margin-left: 120px;
+}
+.boton1{
+    background-color: rgb(255, 76, 22);
+    border: none;
+    border-radius: 10%;
+    color: white;
+}
+.foto1{
+    background-color: white;
+}
+.foto2{
+    background-color: white;
+}
+.foto3{
+    background-color: white;
+}
+#fotos{
+    margin-left: 150px;
+    display:grid;
+    width: 100%;
+    grid-template-columns: auto auto auto auto ;  
+    
+}

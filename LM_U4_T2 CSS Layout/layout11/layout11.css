@@ -1,0 +1,40 @@
+#cabezera{
+    background-color:black ;
+}
+#apartado1{
+    background-color: rgb(214, 214, 214);
+    margin: 30px;
+}
+#texto{
+    text-align: center;
+}
+
+.formulario{
+    text-align: left;
+    margin-left: 935px;
+}
+#imagen{
+    position: relative;
+    top: -350px;
+    right: -100px;
+}
+.cuadro{
+    height: 100px;
+}
+#pie{
+    display:grid;
+    width: 100%;
+    grid-template-columns: auto auto auto ;  
+    row-gap: 1rem; 
+    column-gap: 1rem;
+}
+#uno{
+    margin-left: 100px;
+    text-align: center;
+}
+#dos{
+    text-align: center;
+}
+#tres{
+    text-align: center;
+}
