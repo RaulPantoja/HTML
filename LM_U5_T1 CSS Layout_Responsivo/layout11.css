@@ -1,0 +1,95 @@
+@media (min-width:320px) and (max-width:767px){
+    .cabecera{
+        display: grid;
+        background-color: rgb(0, 0, 0);
+        grid-template-rows: 10px 10px 40px ;
+    }
+    .contenedorMedio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        background-color: rgb(201, 201, 201);
+        grid-template-areas:
+        "titulo titulo"
+        "vino formulario"
+        ;
+    }
+    .titulo{
+        grid-area: titulo;
+        text-align: center;
+        background-color: rgb(201, 201, 201);
+    }
+    
+    .formulario{
+        grid-template-columns: 1fr 1fr;
+        grid-area: formulario;
+        text-align: right;
+    }
+    .vino{ 
+        display: grid;
+        grid-area: vino;
+        text-align: left;
+        
+    }
+    .imagenVino{
+        
+        max-width:100%;
+    }
+    .empleados{
+        grid-area: empleados;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .img1{
+        max-width: 15%;
+    }
+    .img2{
+        max-width: 15%;
+    }
+    .img3{
+        max-width: 15%;
+    }
+}
+@media screen and (min-width:768px) {
+    .empleados{
+        display: flex;
+        margin-top: 5%;
+    }
+    .img1{
+        max-width: 15%;
+    }
+    .img2{
+        max-width: 40%;
+    }
+    .img3{
+        max-width: 25%;
+    }
+    .cabecera{
+        display: grid;
+        background-color: rgb(0, 0, 0);
+        grid-template-rows: 10px 10px 30px ;
+    }
+    .titulo{
+        grid-area: titulo;
+        text-align: center;
+        background-color: rgb(201, 201, 201);
+    }
+    .contenedorMedio{
+        display: grid;
+        grid-template-columns: 0fr 2fr;
+        grid-template-rows: 1fr;
+        background-color: rgb(201, 201, 201);
+        grid-template-areas: 
+        "titulo titulo titulo"
+        "vino . formulario";
+    }
+    .formulario{
+        grid-template-columns: 2fr 2fr;
+        grid-area: formulario;
+        text-align: right;
+    }
+    
+}

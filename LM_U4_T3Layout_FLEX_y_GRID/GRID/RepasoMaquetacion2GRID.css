@@ -1,0 +1,92 @@
+.wrapper{
+    display: grid;
+    grid-template-areas: 
+    "cabecera cabecera"
+    "titulo"
+    ;
+}
+#cabecera{
+    background-color: black;
+    color: white;
+}
+#titulo{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.fecha{
+    text-align: right;
+}
+#cabecera  ul{
+    list-style:none;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: repeat(8,min-content);
+}
+.lastNews{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-right: 1500px;
+    
+}
+
+.listado ul{
+    list-style: none;
+}   
+.uno{
+    background-color: gray;
+    margin-right: 1500px;
+    margin-left: -40px;
+}
+.dos{
+    margin-right: 1500px;
+    margin-left: -40px;
+}
+.tres{
+    background-color: gray;
+    margin-right: 1500px;
+    margin-left: -40px;
+}
+.cuatro{
+    margin-right: 1500px;
+    margin-left: -40px;
+}
+.cinco{
+    margin-right: 1500px;
+    margin-left: -40px;
+    background-color: gray;
+    height: 120px;
+}
+img{
+    width: 180px;
+    
+}
+.imagenAn{
+    place-items: center;
+    margin-left: 5px;
+}
+.divAn {
+    background-color:silver;
+    padding: 15px;
+    margin-left:800px;
+    margin-right: 800px;
+    margin-top: -250px;
+    text-align: center;
+    align-items: center;
+    
+}
+.login{
+    margin-left: 1400px;
+    margin-top: -250px;
+}
+.privada{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.pie{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

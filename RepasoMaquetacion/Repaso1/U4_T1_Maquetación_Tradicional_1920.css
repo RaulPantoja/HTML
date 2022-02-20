@@ -1,0 +1,92 @@
+#cabecera{
+    background-color: rgb(33, 192, 33);
+    column-count: 11;
+    padding: 3px;
+    display: inline-block;
+    border-bottom: solid black;
+    color: white;
+}
+#cabecera:hover{
+    background-color: red;
+    color: blue;
+}
+#primero{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 4%;
+}
+#identificado{
+    margin-left: 1000px;
+    color: white;
+}
+.menu1{
+    background-color: gray;
+    max-width: 300px;
+    min-height: 280px;
+    margin-left: 50px;
+}
+.imagen1{
+    margin-left: 30px;
+}
+.imagen2{
+    margin-left: 400px;
+    max-width: 650px;
+    margin-top: -1500px;
+}
+.categoria{
+    margin-left: 350px;
+    margin-right: 220px;
+    background-color: rgb(173, 173, 173);
+    max-width: 750px;
+    border-bottom: green solid
+}
+#categorias{
+    margin-left: 350px;
+    margin-right: 220px;
+    margin-top: -100px;
+    background-color: rgb(223, 219, 219);
+    border-radius: 1%;
+    border-top: green solid;
+    border-bottom: green solid;
+    border-left: green solid;
+    border-right: green solid;
+
+
+}
+.arbol{
+    max-width: 100px;
+    margin-left: 900px;
+    margin-top: 20px;
+    
+    
+}
+#calendario{
+    margin-left: 1100px;
+    margin-top: -500px;
+    background-color: gray;
+
+}
+.imgCalendario{
+    margin-left:10px;
+    margin-bottom: 300px;
+}
+#pie{
+     background-color: rgb(37, 37, 37);
+     border-radius: 4px;
+     
+}
+.textoPie{
+    margin-left: 580px;
+    color: white;
+}
+.imgPie{
+    margin-left: 620px;
+}
+li{
+    color: green;
+}
+span{
+    color: black;
+    font-weight: bold;
+}
