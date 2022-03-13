@@ -1,0 +1,270 @@
+@media (min-width:320px) and (max-width:767px){
+
+
+#wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "registro" 
+    "cabecera"
+    "collections";
+}
+#registro{
+    width: 100%;
+    display: flex;
+    grid-template-areas: registro;
+    background-color: black;
+}
+.signup{
+    margin: 2%;
+    background-color: orange;
+    color: white;
+    
+}
+#cabecera{
+    grid-template-areas: cabecera;
+    background-color: gray;
+
+}
+.h2{
+    color: white;
+    font-weight: bold;
+}
+#login{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+
+}
+.log{
+    padding: 1%;
+    background-color: orange;
+    color: white;
+}
+#collections{
+    grid-template-areas: colecciones;
+    background-color: rgb(179, 177, 177);
+}
+.col{
+    color: black;
+    font-weight: bold;
+
+}
+#iconos{
+    color: white;
+    text-align: right;
+}
+#cursos{
+    margin: 10%;
+    row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+}
+#curso1{
+    color: white;
+    background-color: rgb(58,58,58);
+    gap: 10%;
+}
+#curso2{
+    color: white;
+    background-color: rgb(58,58,58);
+}
+#curso3{
+    color: white;
+    background-color: rgb(58,58,58);
+}
+#curso4{
+    color: white;
+    background-color: rgb(58,58,58);
+}
+#curso5{
+    color: white;
+    background-color: rgb(58,58,58);
+}
+#curso6{
+    color: white;
+    background-color: rgb(58,58,58);
+}
+.boton1{
+    color: white;
+    height: 15%;
+    width: 15%;
+    background-color: transparent;
+    border-color: orange;
+}
+.boton2{
+    color: white;
+    height: 15%;
+    width: 15%;
+    background-color: transparent;
+    border-color: orange;
+}
+.boton3{
+    color: white;
+    height: 15%;
+    width: 15%;
+    background-color: transparent;
+    border-color: orange;
+}
+.boton4{
+    color: white;
+    height: 15%;
+    width: 15%;
+    background-color: transparent;
+    border-color: orange;
+}
+.boton5{
+    color: white;
+    height: 15%;
+    width: 15%;
+    background-color: transparent;
+    border-color: orange;
+}
+.boton6{
+    color: white;
+    height: 15%;
+    width: 15%;
+    background-color: transparent;
+    border-color: orange;
+}
+#pie{
+    background-color: rgb(26, 25, 25);
+    color: white;
+}
+
+
+}
+@media screen and (min-width:768px) {
+    #pie{
+        padding-top: 2%;
+        border-top: orange;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "cursos whatwedo collectionsPie resources social";
+    }
+    #cursos{
+        color: white;
+        row-gap: 50px;
+        column-gap: 20px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: rgb(58, 58, 58);
+        
+    }
+    #wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "registro" 
+        "cabecera"
+        "collections";
+    }
+    #registro{
+        background-color: black;
+        width: 100%;
+        display: flex;
+        grid-template-areas: registro;
+    }
+    .signup{
+        margin: 2%;
+        background-color: orange;
+        color: white;
+        
+    }
+    #cabecera{
+        grid-template-areas: cabecera;
+        background-color: gray;
+    
+    }
+    .h2{
+        color: white;
+    }
+    #login{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 5%;
+    
+    }
+    .log{
+        padding: 1%;
+        background-color: orange;
+        color: white;
+    }
+    #collections{
+        grid-template-areas: colecciones;
+        background-color: rgb(179, 177, 177);
+    }
+    .col{
+        color: black;
+        font-weight: bold;
+    
+    }
+    #iconos{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        color: white;
+    }
+    .boton1{
+        color: white;
+        height: 20%;
+        width: 25%;
+        background-color: transparent;
+        border-color: orange;
+    }
+    .boton2{
+        color: white;
+        height: 15%;
+        width: 27%;
+        background-color: transparent;
+        border-color: orange;
+    }
+    .boton3{
+        color: white;
+        height: 15%;
+        width: 25%;
+        background-color: transparent;
+        border-color: orange;
+    }
+    .boton4{
+        color: white;
+        height: 13%;
+        width: 25%;
+        background-color: transparent;
+        border-color: orange;
+    }
+    .boton5{
+        color: white;
+        height: 13%;
+        width: 30%;
+        background-color: transparent;
+        border-color: orange;
+    }
+    .boton6{
+        color: white;
+        height: 13%;
+        width: 25%;
+        background-color: transparent;
+        border-color: orange;
+    }
+    
+}
+@media screen and (min-width:1024px) {
+    #pie{
+        color:rgb(255, 255, 255);
+        background-color: rgb(26, 25, 25);
+        padding-top: 2%;
+        border-top: orange;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "cursos whatwedo collectionsPie resources social";
+    }
+}
